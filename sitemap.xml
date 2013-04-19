@@ -3,7 +3,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
 	<url>
 		<loc>http://bloganostra.com/</loc>
-		<lastmod>2013-02-12T23:02:09-06:00</lastmod>
+		<lastmod>2013-04-19T11:43:08-05:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -94,97 +94,6 @@
 	</url>
 	
 	<url>
-		<loc>http://http://bloganostra.com/centre</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/sitemap</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/coupon</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/analyse</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/processus</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/app</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/web</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/user</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/flow</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/ia</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/section</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/comercial</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/culturel</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
 		<loc>http://http://bloganostra.com/home</loc>
 		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
@@ -192,28 +101,7 @@
 	</url>
 	
 	<url>
-		<loc>http://http://bloganostra.com/analisis</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/coupons</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/process</loc>
-		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<url>
-		<loc>http://http://bloganostra.com/historie</loc>
+		<loc>http://http://bloganostra.com/musique</loc>
 		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
@@ -227,14 +115,84 @@
 	</url>
 	
 	<url>
-		<loc>http://http://bloganostra.com/soutien</loc>
+		<loc>http://http://bloganostra.com/culturel</loc>
 		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	
 	<url>
-		<loc>http://http://bloganostra.com/claro</loc>
+		<loc>http://http://bloganostra.com/historie</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/section</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/flow</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/process</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/coupon</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/web</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/app</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/sitemap</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/processus</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/ia</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/analisis</loc>
 		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
@@ -248,7 +206,49 @@
 	</url>
 	
 	<url>
-		<loc>http://http://bloganostra.com/musique</loc>
+		<loc>http://http://bloganostra.com/claro</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/coupons</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/comercial</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/analyse</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/user</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/centre</loc>
+		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>http://http://bloganostra.com/soutien</loc>
 		<lastmod>2012-04-12T20:59:36+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
