@@ -1,0 +1,22 @@
+		<div class="large-3 columns">
+			<div class="me">
+				<a href="/" class="foto"></a>
+				<span>Ulises Rojas @ Spécialiste UX</span>
+				<div>
+					<ul>
+						{% if site.linkedin %}
+						<li><a href="{{ site.linkedin }}"><i class="icon-linkedin-circled-1"></i></a></li>
+						{% endif %}
+						{% if site.twitter %}
+						<li><a href="http://twitter.com/{{ site.twitter }}"><i class="icon-twitter-circled-1"></i></a></li>
+						{% endif %}
+						{% if site.github %}
+						<li><a><i class="icon-github-circled"></i></a></li>
+						{% endif %}
+						{% if site.soundcloud %}
+						<li><a href="https://soundcloud.com/{{ site.soundcloud }}"><i class="icon-soundcloud-circled"></i></a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</div>
+		</div>
