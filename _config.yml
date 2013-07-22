@@ -12,5 +12,5 @@ thumb: "/img/thumbs/"
 big: "/img/big/"
 pagination: true
 paginate: 4
-destination: /Users/ulises/Documents/toStage/usrix.github.com/
+destination: /Users/ulises/Dropbox/toStage/usrix.github.com/
 exclude: [config.rb, humans.txt, MIT-LICENSE.txt]
