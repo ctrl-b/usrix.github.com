@@ -1,0 +1,8 @@
+<li>
+	<h3>		
+		<a href="{{ post.external-url }}" target="_blank">{{ post.title }}</a>
+		
+		{% include tag-new.html %}
+	</h3>
+	<span class="subheader">{{ post.tipo }} - {{ post.date | date: "%d %B %Y" }}</span>
+</li>

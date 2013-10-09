@@ -1,13 +1,20 @@
+$coleur-du-fond: #f2f1ec
+
 html
 	//background: url(images/graphy.png)
-	//background: url(images/white_wall_hash.png)
+	background: url(images/white_wall_hash.png)
 	//background: url(images/fabric_of_squares_gray.png)
 	//background: url(images/subtle_white_feathers.png)
-	background: url(images/subtle_grunge.png)
-	background-color: lightgray
+	//background: url(images/subtle_grunge.png)
+	//background: url(images/mbg-lightgray.png)
+	//background-color: #fdfdfd
+	background-color: $coleur-du-fond
+	//background-color: #F4F4F4
 	//background-attachment: fixed
 h1
 	color: $secondary-color
+h2, h3, h4, h5, h6
+	font-family: "Lekton", sans-serif
 h2
 	color: darken($secondary-color, 10%)
 sup
@@ -15,28 +22,71 @@ sup
 section
 	img
 		width: 100%
+p
+	font-weight: lighter
+.top-bar
+	background: none
+	margin: 0
 .go-home
 	font-size: 3em
 	margin: .5em 0
 
 .home-listing
-	list-style: none
+	list-style: outside
 	margin-top: 1em
 	a
 		color: #272a2f
-		&:hover
-			color: darken($primary-color, 20%)
+		display: block
 	li
-		margin-bottom: 1.5em
+		//margin-bottom: 1.5em
+		border-bottom: dashed 1px lightgray
+		transition: background-color 0.5s ease
+		a
+			padding: 1em 0
 		h3
+			line-height: 100%
 			margin: 0
 			//text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)
-
+		span
+			font-size: 80%
+			margin: 0
+		&:hover
+			background-color: rgba($coleur-du-fond, 0.3)
+			h3
+				color: darken($primary-color, 20%)
+.name
+	font-size: 1.5em
+	a
+		color: lightgray
+		//padding: 1em
+h4, h5, h6
+	border-bottom: .5em solid rgba($secondary-color, 0.1)
+.big-title
+	//font-family: 'Open Sans', sans-serif
+	color: $secondary-color
+	padding: 6em 0
+	width: 100%
+	text-align: center
+	h1
+		//font-family: 'Open Sans', sans-serif
+		font-size: 5em
+		margin: 0
+		//text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15)
+		//text-shadow: 0 0px 0 darken($secondary-color, 6%), 0 1px 0 darken($secondary-color, 7%), 0 2px 0 darken($secondary-color, 8%), 0 3px 0 darken($secondary-color, 9%), 0 4px 0 darken($secondary-color, 10%), 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15)
+		text-shadow: 0 0px 0 darken($secondary-color, 6%), 0 1px 0 darken($secondary-color, 7%), 0 2px 0 darken($secondary-color, 8%), 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15)
+	span
+		font-size: 1em
+		color: darken(lightgray,20%)
+.big-title-home
+	@extend .big-title
+	h1
+		font-family: 'Open Sans', sans-serif
+		font-weight: normal
 .me
 	a.foto
-		width: emCalc(100px)
-		height: emCalc(100px)
-		border-radius: emCalc(100px)
+		width: emCalc(150px)
+		height: emCalc(150px)
+		border-radius: emCalc(150px)
 		background: url(images/IMG_20130603_070925.png)
 		background-size: cover
 		display: block
@@ -62,33 +112,55 @@ section
 	text-align: right
 .next
 	text-align: right
-	margin-top: 1em
+	margin: 1em 0
 .prev
-	margin: 2em 0 1em 0
+	margin: 1em
+	text-align: left
+
 footer
 	//position: fixed
 	//right: 2em
 	margin: 3em 0 1em 0
-	font-size: .85em
-	opacity: .5
+	font-size: 80%
+	line-height: 200%
+	//opacity: .5
 	text-align: right
+	span
+		display: block
+		float: none
 
 @media only screen and (min-width: 1024px)
-	.me
+	.dme
 		position: fixed
 		top: 50%
 		margin-top: emCalc(-100px)
+	.mobile-element
+		max-width: emCalc(320px)
+		border: emCalc(10px) solid white
+		margin: 0 auto
+		display: block
 
 @media only screen and (max-width: 1023px)
-	.me
+	.dme
 		//background: #fff
 		margin-top: 1em
 @media only screen and (max-width: 767px)
 	.translate
 		margin: 1em 0
 		text-align: center
-	.me
+	.dme
 		a.foto
 			width: emCalc(70px)
 			height: emCalc(70px)
 			border-radius: emCalc(70px)
+@media only screen and (max-width: 500px)
+	.big-title-sizes
+		padding: 5em 0
+		h1
+			font-size: 2.2em
+	.big-title
+		@extend .big-title-sizes
+	.big-title-home
+		@extend .big-title-sizes
+		h1
+			font-size: 5em

@@ -4,25 +4,34 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>{{ page.title }} {{ site.main_title }}</title>
+	<meta name="google-translate-customization" content="2584634f42b2280a-d956e5ef8feccb85-ga8dd0cbf30b2daa1-f"></meta>
+	<title>Spécialiste UX | Ulises Rojas</title>
 	<link rel="stylesheet" href="/stylesheets/app.css" />
 	
 	<script src="/javascripts/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
-	{% include menu-top-bar.html %}
-	{% include prev.html %}
-	<div class="large-12 columns big-title">
-		<h1>{{ page.title }}</h1>
-		<span class="date-small">{{ page.date | date: "%d %B %Y" }}</span>
-	</div>
+
 	<div class="row">
+		
+	
 		<div class="large-12 columns">
+			{% include translate.html %}
 			
-			{{ content }}
+			{% include prev.html %}
+			
+
+			<h1>{{ page.title }}</h1>
+
+			<section class="text">
+				{{ content }}
+			</section>
+			
+				{% include next.html %}
+			
 		</div>
-		{% include next.html %}
+
 	</div>
 	<div class="row">
 		{% include footer.html %}

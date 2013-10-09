@@ -1,16 +1,17 @@
 markdown: rdiscount
 pygments: true
 description: "Spécialiste UX Portfolio, Flows, Sitemaps et Wireframes"
-main_title: " | Ulises Rojas"
+main_title: " | Spécialiste UX"
 twitter: "usrix"
 linkedin: "http://ca.linkedin.com/in/ulisesrojas"
 soundcloud: "tokenmusic"
 github:
+titulo: usrix
 trackingID: "UA-27464657-1"
 permalink: /:categories/:title/
 thumb: "/img/thumbs/"
 big: "/img/big/"
 pagination: true
 paginate: 4
-destination: /Users/ulises/Dropbox/toStage/usrix.github.com/
-exclude: [config.rb, humans.txt, MIT-LICENSE.txt]
+destination: /Users/ulises/Documents/toStage/usrix.github.com/
+exclude: [config.rb, humans.txt, MIT-LICENSE.txt, compass_app_log.txt]

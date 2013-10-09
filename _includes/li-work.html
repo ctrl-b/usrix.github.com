@@ -1,12 +1,15 @@
 <li>
-	<h3>		
-		<a href="{{ post.url }}">{{ post.title}}</a>
+			
+	<a href="{{ post.url }}">
+		<h3>
+		{{ post.title}}
 		
 		{% capture fechahoy %}{{ site.time | date: "%U" }}{% endcapture %}
 		{% capture fechaevento %}{{ post.date | date: "%U" }}{% endcapture %}
 		{% if fechaevento >= fechahoy %}
-		<sup class="radius secondary label">new!</sup>
+			<sup class="radius secondary label">new!</sup>
 		{% endif %}
-	</h3>
+		</h3>
 	<span class="subheader">{{ post.categories }} - {{ post.date | date: "%d %B %Y" }}</span>
+	</a>
 </li>

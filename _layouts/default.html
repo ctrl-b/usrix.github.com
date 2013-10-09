@@ -4,23 +4,21 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Spécialiste UX | Ulises Rojas</title>
+	<title>{{ page.title }} {{ site.main_title}}</title>
 	<link rel="stylesheet" href="/stylesheets/app.css" />
 	
 	<script src="/javascripts/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
-
+	{% include menu-top-bar.html %}
+	<div class="large-12 columns big-title-home">
+		<h1>{{ page.titulo }}</h1>
+	</div>
 	<div class="row">
-		{% include datos.html %}
-	
-		<div class="large-9 columns">
-			{% include translate.html %}
-			
+		<div class="large-12 columns">
 			{{ content }}
 		</div>
-
 	</div>
 	<div class="row">
 		{% include footer.html %}

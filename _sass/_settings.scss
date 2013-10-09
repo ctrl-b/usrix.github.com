@@ -55,7 +55,7 @@ $default-float: left;
 $body-bg: none;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$body-font-family: "Open Sans", sans-serif;
+$body-font-family: "Pontano Sans", sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -142,7 +142,7 @@ $large-screen: 1440px;
 //
 
 // $row-width: emCalc(1000);
-$row-width: emCalc(1200);
+$row-width: emCalc(768);
 // $column-gutter: emCalc(30);
 // $total-columns: 12;
 
@@ -166,7 +166,7 @@ $row-width: emCalc(1200);
 // Control header font styles
 
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-family: "Lekton", sans-serif;
+$header-font-family: "Arvo", serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -1242,7 +1242,7 @@ $list-style-position: inside;
 
 // Background color for the top bar
 
-// $topbar-bg: #111;
+//$topbar-bg: white;
 
 // Height and margin
 

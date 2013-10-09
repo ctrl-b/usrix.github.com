@@ -1,0 +1,5 @@
+		{% capture fechahoy %}{{ site.time | date: "%U" }}{% endcapture %}
+		{% capture fechaevento %}{{ post.date | date: "%U" }}{% endcapture %}
+		{% if fechaevento >= fechahoy %}
+		<sup class="radius secondary label">new!</sup>
+		{% endif %}

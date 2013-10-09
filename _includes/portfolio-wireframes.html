@@ -1,0 +1,8 @@
+				{% for post in site.categories.portfolio %}
+					
+					{% capture elemento %}{{ post.tipo }}{% endcapture %}
+					{% if elemento == "link" %}
+						{% include li-links.html %}
+					{% endif %}
+					
+				{% endfor %}

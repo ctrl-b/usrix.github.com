@@ -23,7 +23,7 @@
 // @import "foundation/components/split-buttons"; // *requires components/buttons
 // @import "foundation/components/flex-video";
 // @import "foundation/components/section";
-// @import "foundation/components/top-bar";  // *requires components/grid
+@import "foundation/components/top-bar";  // *requires components/grid
 // @import "foundation/components/orbit";
 // @import "foundation/components/reveal";
 // @import "foundation/components/joyride";
@@ -47,5 +47,9 @@
 // @import "foundation/components/dropdown";
 
 @import "ux-blog";
-
 @import "ux-font";
+
+@import url(http://fonts.googleapis.com/css?family=Lekton:400);
+//@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Arvo);
