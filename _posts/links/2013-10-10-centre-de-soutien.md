@@ -3,6 +3,7 @@ layout: post
 title: Centro de Ayuda Claro
 categories: links
 external-url: http://www.claro.com.pe/wps/portal/pe/sc/personas/centro-de-ayuda
+status: online
 tags:
 - html5
 - css3
