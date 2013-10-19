@@ -2,12 +2,27 @@
   "name": "ux-blog",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
   "glyphs": [
+    {
+      "uid": "43ab845088317bd348dee1d975700c48",
+      "css": "ok-circled",
+      "code": 59411,
+      "src": "fontawesome"
+    },
     {
       "uid": "6fe95ffc3c807e62647d4f814a96e0d7",
       "css": "sitemap",
       "code": 59409,
       "src": "fontawesome"
+    },
+    {
+      "uid": "603d5ccab42d916e79d7c0fcdb56a614",
+      "css": "drive",
+      "code": 59413,
+      "src": "entypo"
     },
     {
       "uid": "0f81c70dd389bf78f46387b794f2573f",
@@ -50,6 +65,18 @@
       "css": "beer",
       "code": 59405,
       "src": "typicons"
+    },
+    {
+      "uid": "5e1ef647438e2204c15197c6efc4151e",
+      "css": "ok-circled-1",
+      "code": 59412,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "189edfc41118cccbeb25788fcbb403da",
+      "css": "attention",
+      "code": 59414,
+      "src": "mfglabs"
     },
     {
       "uid": "33afa0f624ce5dae73f62a3f21a67f83",
@@ -109,6 +136,12 @@
       "uid": "d80ef118949b097868584a3b80d55ce4",
       "css": "home-circled",
       "code": 59410,
+      "src": "elusive"
+    },
+    {
+      "uid": "f7838631ee8af22feedf7358e02ef8e2",
+      "css": "attach-circled",
+      "code": 59401,
       "src": "elusive"
     }
   ]

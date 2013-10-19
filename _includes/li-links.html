@@ -7,6 +7,6 @@
 		{% if fechaevento >= fechahoy %}
 			<sup class="radius secondary label">new!</sup>
 		{% endif %}
+		<span class="subheader"> - {{ post.status }} - {{ post.date | date: "%B %Y" }}</span>
 	</a>
-	<span class="subheader"> - {{ post.status }} - {{ post.date | date: "%B %Y" }}</span>
 </li>
