@@ -3,9 +3,10 @@ pygments: true
 description: "Spécialiste UX Portfolio, Flows, Sitemaps et Wireframes"
 main_title: " | Spécialiste UX"
 twitter: "usrix"
-linkedin: "http://ca.linkedin.com/in/ulisesrojas"
+linkedin: "ulisesrojas"
 soundcloud: "tokenmusic"
 github:
+googleplus: 116896258914699742170
 titulo: usrix
 trackingID: "UA-27464657-1"
 permalink: /:categories/:title/

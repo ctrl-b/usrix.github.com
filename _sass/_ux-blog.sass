@@ -54,6 +54,26 @@ p
 			background-color: rgba($coleur-du-fond, 0.3)
 			h3
 				color: darken($primary-color, 20%)
+.liens
+	li
+		//margin-bottom: 1.5em
+		list-style: inside
+		border-bottom: dashed 1px lightgray
+		transition: background-color 0.5s ease
+		a
+			padding: 1em 0
+			display: inline-block
+		h3
+			line-height: 100%
+			margin: 0
+			//text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)
+		span
+			font-size: 80%
+			margin: 0
+		&:hover
+			background-color: rgba($coleur-du-fond, 0.3)
+			h3
+				color: darken($primary-color, 20%)
 .name
 	font-size: 1.5em
 	a

@@ -1,8 +1,11 @@
-<li>
-	<h3>		
-		<a href="{{ post.external-url }}" target="_blank">{{ post.title }}</a>
+<li>		
+	<a href="{{ post.external-url }}" target="_blank" rel="nofollow">
+		{{ post.title}}
 		
-		{% include tag-new.html %}
-	</h3>
-	<span class="subheader">{{ post.tipo }} - {{ post.date | date: "%d %B %Y" }}</span>
+		{% capture fechahoy %}{{ site.time | date: "%U" }}{% endcapture %}
+		{% capture fechaevento %}{{ post.date | date: "%U" }}{% endcapture %}
+		{% if fechaevento >= fechahoy %}
+			<sup class="radius secondary label">new!</sup>
+		{% endif %}
+	</a>
 </li>

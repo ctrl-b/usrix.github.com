@@ -4,10 +4,30 @@ title: Ulises Rojas
 titulo: Ulises Rojas
 ---
 		{% include datos.html %}
-		<div class="large-7 columns">
+		<section class="large-7 columns">
 
 			<h4>About</h4>
 			<p>I am a User Experience Specialist, my big passion: human behaivor, as a UX professional the responsability to bring great and enjoyable products it's a must, not just with great usability, you need to get in mind business objectives, user needs and UX strategies to accomplish.</p>
 			<p>I love to tell histories as part of my job, big fan of electronic music and Dj as a second profession (in my free time).</p>
 			<p>If you have an Opensource project and want an advice, contact me !, I am pleased to help you. </p>
-		</div>
+		</section>
+		<section class="large-5 columns liens">
+			<h4>Contact</h4>
+
+			<ul>
+				<li><a href="http://ca.linkedin.com/in/{{ site.linkedin }}">linkedin</a></li>
+				<li><a href="http://twitter.com/{{ site.twitter }}">twitter</a></li>
+				<li><a href="https://plus.google.com/{{ site.googleplus }}">google+</a></li>
+				<li><a href="https://soundcloud.com/{{ site.soundcloud }}">soundcloud</a></li>	
+			</ul>
+
+		</section>
+		<section class="large-7 columns liens">
+			<h4>Latest works</h4>
+			<ul>
+				{% for post in site.categories.links %}
+					{% include li-links.html %}
+				{% endfor %}
+			</ul>
+
+		</section>

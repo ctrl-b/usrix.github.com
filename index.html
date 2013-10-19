@@ -5,9 +5,14 @@ titulo: UIX
 ---
 		
 			<ul class="home-listing">
+
 				{% for post in site.posts %}
 					
-					{% include li-work.html %}
+					{% if post.categories contains 'links' %}
+    				{% else %}
+						{% include li-work.html %}
+					{% endif %}
+					
 					
 				{% endfor %}
 			</ul>
